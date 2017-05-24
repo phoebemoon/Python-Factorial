@@ -1,0 +1,7 @@
+x=input('enter number')
+def factorial(x):
+    if x == 0:
+        return 1
+    print ("hello")
+    return x*factorial(x-1)
+print factorial(x)
